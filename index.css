@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    padding: 5rem 10rem;
+}
+
+.container{
+    min-width: 20rem;
+    width: 70rem;
+    margin: auto;
+    /* background-color: #fafafa; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    font-size: 5rem;
+}
+
+.container .post{
+   margin-top: 5rem; 
+   background-color: aquamarine;
+   padding: 2rem 5rem;
+   border-radius: 1rem;
+}
+
+.post-id{
+    width:5rem;
+    height: 5rem;
+    background-color: red;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+}
+
+.title{
+    font-size: 3rem;
+    margin: 2rem 0 1rem 0;
+    text-transform: capitalize;
+}
+.body{
+    font-size: 1.5rem;
+    
+}
