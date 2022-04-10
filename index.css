@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: aqua;
+    background-color: #f6ebf4;
     padding: 5rem 10rem;
 }
 
@@ -22,23 +22,35 @@ body{
 
 .container h1{
     font-size: 5rem;
+    color: #482673;
+}
+.container h1:hover{
+    color: #023B59;
 }
 
 .container .post{
    margin-top: 5rem; 
-   background-color: aquamarine;
+   background-color: #482673;
    padding: 2rem 5rem;
    border-radius: 1rem;
+   color:#f6ebf4; 
 }
 
 .post-id{
     width:5rem;
     height: 5rem;
-    background-color: red;
-    color: white;
+    background-color:#ed0b70;
+    color: #f6ebf4;
+    border-radius: 1rem;
+    
     display: grid;
     place-items: center;
-    font-size: 2rem;
+    font-size: 3rem;
+}
+.post-id:hover{
+    color: #023B59;
+   background-color:#f6ebf4;
+   cursor: pointer;
 }
 
 .title{

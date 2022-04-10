@@ -1,6 +1,6 @@
 
 const container = document.querySelector('.container');
-let limit=20;
+let limit=25;
 let pageCount=1;
 let postCount=1;
 
